@@ -15,8 +15,10 @@ export default function NavbarSection() {
     <div className="sticky top-4 mx-4 rounded-full h-14 flex flex-row justify-between items-center px-8 bg-[#5A56EB]">
       <div className="text-white font-semibold text-xl">KraftBase</div>
       <div className="flex flex-row gap-x-4 text-white text-md font-medium">
-        {navigation.map((item) => (
-          <div className="hidden sm:block">{item.title}</div>
+        {navigation.map((item, index) => (
+          <div key={index} className="hidden sm:block">
+            {item.title}
+          </div>
         ))}
         <div className="sm:hidden">
           <button
