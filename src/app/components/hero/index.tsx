@@ -11,7 +11,7 @@ import CircleSvg from "@/svg/circle";
 
 export default function HeroSection() {
   return (
-    <div className=" flex flex-col items-center justify-center max-w-[85%] max-lg:max-w-[95%] max-lg:px-10 max-md:px-0 px-20 py-10 mx-auto my-20 dark:bg-white rounded-3xl">
+    <div className="flex flex-col items-center justify-center max-w-[85%] max-lg:max-w-[95%] max-lg:px-10 max-md:px-0 px-20 py-10 mx-auto my-20 dark:bg-white rounded-3xl">
       <div className="text-[85px] max-lg:text-[65px] max-md:text-[55px] max-sm:text-[40px] max-xs:text-[35px] leading-tight text-center uppercase font-righteous">
         {/* <div className="relative">
           <div className="absolute right-0 top-[200px]">

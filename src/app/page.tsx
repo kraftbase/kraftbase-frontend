@@ -13,7 +13,6 @@ import TrustedBySection from "./components/trustedBy";
 export default function Home() {
   return (
     <div>
-      <NavbarSection />
       <HeroSection />
       <Strips />
       <TrustedBySection />
@@ -23,7 +22,6 @@ export default function Home() {
       <ReviewsSection />
       <CallToAction />
       <GetInTouchSection />
-      <FooterSection />
     </div>
   );
 }
