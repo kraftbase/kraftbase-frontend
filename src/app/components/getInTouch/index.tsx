@@ -9,26 +9,26 @@ export default function GetInTouchSection() {
       <div className="flex flex-col gap-y-3 mt-10 w-full font-righteous">
         <div className="flex flex-row max-lg:flex-col justify-between gap-4">
           <input
-            className="flex-grow border-solid border-black dark:border-white dark:bg-black border-4 rounded-full px-6 py-4"
+            className="flex-grow border-solid dark:text-white border-black dark:border-white dark:bg-black border-4 rounded-full px-6 py-4"
             placeholder="Firstname"
           />
           <input
-            className="flex-grow border-solid border-black dark:border-white dark:bg-black border-4 rounded-full px-6 py-4"
+            className="flex-grow border-solid dark:text-white border-black dark:border-white dark:bg-black border-4 rounded-full px-6 py-4"
             placeholder="Lastname"
           />
         </div>
         <div className="flex flex-row max-lg:flex-col gap-4">
           <input
-            className="flex-grow border-solid border-black dark:border-white dark:bg-black border-4 rounded-full px-6 py-4"
+            className="flex-grow border-solid dark:text-white border-black dark:border-white dark:bg-black border-4 rounded-full px-6 py-4"
             placeholder="Email"
           />
           <input
-            className="flex-grow border-solid border-black dark:border-white dark:bg-black border-4 rounded-full px-6 py-4"
+            className="flex-grow border-solid dark:text-white border-black dark:border-white dark:bg-black border-4 rounded-full px-6 py-4"
             placeholder="Phone number"
           />
         </div>
         <textarea
-          className="border-solid border-black dark:border-white dark:bg-black border-4 rounded-full max-lg:rounded-3xl px-6 py-4"
+          className="border-solid border-black dark:text-white dark:border-white dark:bg-black border-4 rounded-full max-lg:rounded-3xl px-6 py-4"
           placeholder="Message"
         ></textarea>
         <button className="bg-black dark:bg-white dark:text-black text-white rounded-full px-6 py-4 text-center">
