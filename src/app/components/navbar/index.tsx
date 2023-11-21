@@ -1,8 +1,12 @@
 "use client";
+import useDarkMode from "@/app/DarkMode";
 import React, { useState } from "react";
+import { IoSunny } from "react-icons/io5";
+import { MdDarkMode } from "react-icons/md";
 
 export default function NavbarSection() {
   const [state, setState] = useState(false);
+  const [colorTheme, setTheme] = useDarkMode();
 
   const navigation = [
     { title: "Home", path: "javascript:void(0)" },
@@ -12,9 +16,19 @@ export default function NavbarSection() {
   ];
 
   return (
-    <div className="sticky top-4 mx-4 rounded-full h-14 flex flex-row justify-between items-center px-8 bg-[#5A56EB]">
-      <div className="text-white font-semibold text-xl">KraftBase</div>
-      <div className="flex flex-row gap-x-4 text-white text-md font-medium">
+    <div className="sticky top-6 shadow-xl border-2 z-50  max-w-[85%] max-lg:max-w-[95%] max-lg:top-4 max-lg:h-[60px] mx-auto rounded-full h-[70px] flex flex-row justify-between items-center px-8 bg-royalblue dark:bg-white">
+      <div className="text-white dark:text-black font-semibold text-2xl">
+        KraftBase
+      </div>
+      <div className="flex flex-row gap-x-8 text-white dark:text-black text-md font-medium">
+        <button className="">
+          {colorTheme == "light" ? (
+            <IoSunny size={20} onClick={() => setTheme("light")} />
+          ) : (
+            <MdDarkMode size={20} onClick={() => setTheme("dark")} />
+          )}
+        </button>
+
         {navigation.map((item, index) => (
           <div key={index} className="hidden sm:block">
             {item.title}

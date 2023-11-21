@@ -7,6 +7,7 @@ import PortfolioSection from "./components/portfolio";
 import ProcessSection from "./components/process";
 import ReviewsSection from "./components/reviews";
 import ServicesSection from "./components/services";
+import Strips from "./components/strips";
 import TrustedBySection from "./components/trustedBy";
 
 export default function Home() {
@@ -14,8 +15,9 @@ export default function Home() {
     <div>
       <NavbarSection />
       <HeroSection />
+      <Strips />
       <TrustedBySection />
-      <ProcessSection />
+      {/* <ProcessSection /> */}
       <ServicesSection />
       <PortfolioSection />
       <ReviewsSection />
