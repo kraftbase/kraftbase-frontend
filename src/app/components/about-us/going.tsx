@@ -11,31 +11,33 @@ type Props = {};
 
 export default function Going({}: Props) {
   return (
-    <div className="flex flex-row-reverse justify-between gap-x-6 my-40 max-w-[85%] max-2xl:max-w-[90%] max-sm:max-w-[95%] max-xl:flex-col max-xl:gap-y-8 overflow-hidden mx-auto text-black dark:text-white font-righteous">
-      <div className="w-6/12 max-xl:w-full flex flex-col gap-4 pr-6 max-sm:pr-0 max-sm:px-2">
-        <div className="text-[80px] max-2xl:text-[75px]  leading-tight uppercase max-sm:text-[40px] max-md:text-[65px]">
-          How it’s going
+    <div className="mx-auto my-40 flex max-w-[85%] flex-row-reverse justify-between gap-x-6 overflow-hidden font-righteous text-black dark:text-white max-2xl:max-w-[90%] max-xl:gap-y-8 max-md:flex-col max-sm:max-w-[95%]">
+      <div className="flex w-6/12 flex-col gap-4 pr-6 max-xl:w-full max-xl:pr-0 max-sm:px-2 max-sm:pr-0">
+        <div className="text-[60px] uppercase  leading-tight max-2xl:text-[55px] max-lg:text-[50px] max-sm:text-[40px]">
+          How it started
         </div>
-        <div className="text-[35px] max-2xl:text-[25px] max-md:text-[20px] max-sm:text-base">
+        <div className="text-[25px] max-2xl:text-[25px] max-lg:text-[18px] max-md:text-[20px] max-sm:text-base">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tortor
           mauris. Nullam gravida lectus orci, imperdiet fermentum massa
           vestibulum eu. Integer vel erat ipsum. Quisque rutrum lobortis sem,
           sed viverra lorem interdmagna,
         </div>
-        <div className="text-[35px] max-2xl:text-[25px] max-md:text-[20px] max-sm:text-base">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tortor
-          mauris. Nullam gravida lectus orci, imperdiet fermentum massa
+        <div className="text-[25px] max-2xl:text-[25px] max-lg:text-[18px] max-md:text-[20px] max-sm:text-base">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi
+          asperiores praesentium, distinctio expedita magnam debitis magni modi
+          amet doloremque nam, consectetur placeat atque natus quidem ipsum
+          vero, reiciendis totam nulla!
         </div>
       </div>
-      <div className="max-w-[741px] max-2xl:max-w-[641px] max-xl:max-w-full">
+      <div className="max-w-[641px] max-2xl:max-w-[600px] max-xl:max-w-[500px] max-lg:max-w-[450px] max-md:max-w-full">
         <div className="relative">
-          <div className="absolute bottom-[4rem] max-xl:bottom-[4rem] max-lg:bottom-[3rem] max-lg:px-8 px-10 max-xl:px-14 max-sm:px-4 max-sm:bottom-[1.2rem] flex flex-row items-center justify-between gap-0">
-            <div className="text-white w-5/6 text-xl dark:text-black max-xl:text-[30px] max-lg:text-[25px] max-md:text-[20px] max-sm:text-sm">
+          <div className="max-lg:text=[15px] absolute bottom-[3rem] flex flex-row items-center justify-between gap-0 px-10 max-xl:bottom-[1.8rem] max-xl:px-6 max-lg:bottom-[1.2rem] max-lg:px-4 max-sm:bottom-[1.2rem] max-sm:px-4">
+            <div className="w-5/6 text-xl text-white dark:text-black max-xl:text-[20px] max-xl:leading-none max-lg:text-[16px] max-md:text-[20px] max-sm:pl-2 max-xs:text-[16px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
               tortor mauris. Nullam gravida lectus orci, imperdiet fermentum
               massa
             </div>
-            <div className="bg-white dark:bg-black w-16 h-16 max-sm:w-12 max-sm:h-12 rounded-full flex items-center justify-center text-black dark:text-white">
+            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white text-black dark:bg-black dark:text-white max-xl:h-12 max-xl:w-12">
               <MdArrowOutward size={35} />
             </div>
           </div>
@@ -43,47 +45,49 @@ export default function Going({}: Props) {
             <img src={object1.src} className="max-xl:w-full" />
           </div>
         </div>
-        <div className="flex flex-row justify-between gap-4 mt-4 max-sm:gap-2 max-sm:mt-2">
-          <div className="bg-[#7B5EA7] border-[9px] px-6 py-6 flex flex-col items-start justify-between gap-4 max-xl:rounded-[4rem] max-xl:p-8 max-sm:rounded-[2rem] max-sm:border-[5px] max-sm:p-4 rounded-[2rem] w-6/12 max-sm:w-[40%]">
+        <div className="mt-4 flex flex-row justify-between gap-4 max-sm:mt-2 max-sm:flex-col max-sm:gap-2">
+          <div className="flex w-6/12 flex-col items-start justify-between gap-4 rounded-[3rem] border-[9px] bg-[#7B5EA7] px-6 py-6 max-xl:rounded-[4rem] max-xl:p-6 max-lg:rounded-[3rem] max-lg:p-4 max-sm:w-[40%] max-sm:w-full max-sm:rounded-[2rem] max-sm:p-4">
             <div>
-              <span className="-space-x-6 max-xs:-space-x-5 overflow-hidden">
+              <span className="-space-x-6 overflow-hidden max-xs:-space-x-5">
                 <Image
                   alt="avatar"
                   src={avatar1}
-                  className="inline-block w-16 max-lg:w-14 max-md:w-12 max-xs:w-10 rounded-full"
+                  className="inline-block w-16 rounded-full max-xl:w-12 max-lg:w-12 max-xs:w-10"
                 />
                 <Image
                   alt="avatar"
                   src={avatar2}
-                  className="inline-block w-16 max-lg:w-14 max-md:w-12 max-xs:w-10 rounded-full"
+                  className="inline-block w-16 rounded-full max-xl:w-12 max-lg:w-12 max-xs:w-10"
                 />
                 <Image
                   alt="avatar"
                   src={avatar3}
-                  className="inline-block w-16 max-lg:w-14 max-md:w-12 max-xs:w-10 rounded-full"
+                  className="inline-block w-16 rounded-full max-xl:w-12 max-lg:w-12 max-xs:w-10"
                 />
                 <Image
                   alt="avatar"
                   src={avatar4}
-                  className="inline-block w-16 max-lg:w-14 max-md:w-12 max-xs:w-10 rounded-full"
+                  className="inline-block w-16 rounded-full max-xl:w-12 max-lg:w-12 max-xs:w-10"
                 />
               </span>
             </div>
-            <div className="bg-white text-black px-4 py-2 rounded-full text-2xl max-sm:text-xs">
+            <div className="rounded-full bg-white px-4 py-2 text-xl text-black max-xl:text-base max-lg:text-sm max-sm:text-base">
               4.75 %
             </div>
-            <div className="text-2xl max-xl:text-2xl max-sm:text-xs">
+            <div className="text-xl max-xl:text-xl max-lg:text-sm max-sm:text-base">
               Lorem ipsum dolor sit amet, con
             </div>
           </div>
-          <div className="flex flex-col justify-between gap-4 border-[9px] w-6/12 bg-candyOrange px-6 py-6 rounded-[2rem] max-xl:p-8 max-sm:rounded-[2rem] max-sm:border-[5px] max-sm:p-4 max-xl:rounded-[4rem] max-sm:w-[60%]">
+          <div className="flex w-6/12 flex-col gap-4 rounded-[3rem] border-[9px] bg-royalblue px-6 py-6 max-xl:rounded-[3rem] max-xl:p-6 max-lg:p-4 max-sm:w-[60%] max-sm:w-full max-sm:rounded-[2rem] max-sm:p-4">
             <div className="flex flex-row items-center justify-between">
-              <div className="uppercase text-3xl max-sm:text-2xl">Design</div>
-              <div className="bg-white dark:bg-black w-14 h-14 max-sm:w-12 max-sm:h-12 rounded-full flex items-center justify-center text-black dark:text-white">
+              <div className="text-3xl uppercase max-lg:text-2xl max-sm:text-2xl">
+                Design
+              </div>
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-white text-black dark:bg-black dark:text-white max-xl:h-12 max-xl:w-12">
                 <MdArrowOutward size={30} />
               </div>
             </div>
-            <div className="text-xl max-xl:text-lg max-sm:text-xs">
+            <div className="text-xl leading-none max-xl:text-[15px] max-lg:text-[14px] max-sm:text-base">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
               tortor mauris. Nullam gravida lectus orci, imperdiet fermentum
               massa
