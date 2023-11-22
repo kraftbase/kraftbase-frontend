@@ -1,14 +1,16 @@
 import React from "react";
 
 interface SVGProps {
-  width: number | string;
+  width?: number | string;
   fill: string;
+  classNames?: string;
 }
 
-const FlowerSvg: React.FC<SVGProps> = ({ width, fill }) => {
+const FlowerSvg: React.FC<SVGProps> = ({ width, fill, classNames }) => {
   return (
     <svg
       width={width}
+      className={classNames}
       // height="560"
       viewBox="0 0 499 560"
       fill="none"

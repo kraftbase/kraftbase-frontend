@@ -13,7 +13,7 @@ export default function page({}: Props) {
     <>
       <AboutUsHero />
       <Achievements />
-      {/* <Team /> */}
+      <Team />
       <Started />
       <Going />
     </>
