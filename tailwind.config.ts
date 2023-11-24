@@ -14,6 +14,7 @@ const config: Config = {
       },
       fontFamily: {
         righteous: "Righteous",
+        dmSans: "DM Sans",
       },
       colors: {
         sunflower: "#E7E51E",
