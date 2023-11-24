@@ -52,10 +52,8 @@ export default function NavbarSection() {
         </Link>
         <div className="text-md font-dmSans flex flex-row gap-x-8 font-normal text-white dark:text-black">
           {navigation.map((item, index) => (
-            <Link href={item.path}>
-              <div key={index} className="hidden md:block">
-                {item.title}
-              </div>
+            <Link href={item.path} key={index}>
+              <div className="hidden md:block">{item.title}</div>
             </Link>
           ))}
         </div>
