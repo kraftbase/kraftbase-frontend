@@ -7,9 +7,11 @@ type Theme = "light" | "dark";
 type UseDarkModeHook = [Theme, Dispatch<SetStateAction<Theme>>];
 
 function useDarkMode(): UseDarkModeHook {
-  const [theme, setTheme] = useState<Theme>(
-    (typeof window !== "undefined" ? localStorage.theme : "dark") as Theme
-  );
+  const [theme, setTheme] = useState<Theme>(() => {
+    const storedTheme = localStorage.getItem("theme");
+    return (storedTheme as Theme) || "dark";
+  });
+
   const colorTheme: Theme = theme === "dark" ? "light" : "dark";
 
   useEffect(() => {
