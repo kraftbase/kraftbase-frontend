@@ -1,9 +1,9 @@
-import avatar1 from "../../../../public/Ellipse 8.png";
-import avatar2 from "../../../../public/Ellipse 9.png";
-import avatar3 from "../../../../public/Ellipse 10.png";
-import avatar4 from "../../../../public/Ellipse 11.png";
-import object1 from "../../../../public/rectangle-4529@2x.png";
-import object2 from "../../../../public/rectangle-4528@2x.png";
+import avatar1 from "../../../public/Ellipse 8.png";
+import avatar2 from "../../../public/Ellipse 9.png";
+import avatar3 from "../../../public/Ellipse 10.png";
+import avatar4 from "../../../public/Ellipse 11.png";
+import object1 from "../../../public/rectangle-4529@2x.png";
+import object2 from "../../../public/rectangle-4528@2x.png";
 
 import Image from "next/image";
 import FlowerSvg from "@/svg/flower";

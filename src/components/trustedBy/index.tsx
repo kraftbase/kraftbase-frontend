@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo1 from "../../../../public/image-17@2x.png";
+import logo1 from "../../../public/image-17@2x.png";
 
 export default function TrustedBySection() {
   return (

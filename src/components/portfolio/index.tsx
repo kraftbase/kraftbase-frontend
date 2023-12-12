@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import image1 from "../../../../public/rectangle-33@2x.png";
-import image2 from "../../../../public/rectangle-30@2x.png";
-import image3 from "../../../../public/rectangle-32@2x.png";
-import image4 from "../../../../public/rectangle-31@2x.png";
+import image1 from "../../../public/rectangle-33@2x.png";
+import image2 from "../../../public/rectangle-30@2x.png";
+import image3 from "../../../public/rectangle-32@2x.png";
+import image4 from "../../../public/rectangle-31@2x.png";
 import ProjectCard from "./projectCard";
 
 export default function PortfolioSection() {

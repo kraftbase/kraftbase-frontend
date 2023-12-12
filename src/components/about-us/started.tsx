@@ -1,10 +1,10 @@
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";
-import object1 from "../../../../public/Rectangle 39549.png";
-import avatar1 from "../../../../public/Ellipse 8.png";
-import avatar2 from "../../../../public/Ellipse 9.png";
-import avatar3 from "../../../../public/Ellipse 10.png";
-import avatar4 from "../../../../public/Ellipse 11.png";
+import object1 from "../../../public/Rectangle 39549.png";
+import avatar1 from "../../../public/Ellipse 8.png";
+import avatar2 from "../../../public/Ellipse 9.png";
+import avatar3 from "../../../public/Ellipse 10.png";
+import avatar4 from "../../../public/Ellipse 11.png";
 import Image from "next/image";
 
 type Props = {};
