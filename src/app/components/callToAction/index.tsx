@@ -1,7 +1,15 @@
+"use client"
 import FlowerSvg from "@/svg/flower";
-import React from "react";
+import React, { useEffect, useState } from "react";
+import InfiniteRotation from "../animations/InfiniteRotation";
 
 export default function CallToAction() {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   return (
     <div className="flex flex-col items-center justify-center max-w-[70%] max-2xl:max-w-[80%] max-lg:py-16 max-md:max-w-[90%] mx-auto gap-5 my-8 p-5 rounded-2xl px-8 bg-royalblue dark:bg-fadedorange overflow-hidden">
       <div className="flex flex-row items-start gap-10 max-lg:gap-14 justify-between max-lg:flex-col-reverse max-lg:items-center">
@@ -17,7 +25,9 @@ export default function CallToAction() {
           </div>
         </div>
         <div>
-          <FlowerSvg width="279" fill="#E7E51E" />
+          <InfiniteRotation isClient={isClient}>
+            <FlowerSvg width="279" fill="#E7E51E" />
+          </InfiniteRotation>
         </div>
       </div>
       <div className="self-start text-[30px] bg-white dark:bg-black dark:text-white uppercase font-righteous py-3 px-10 rounded-full max-lg:self-center">
