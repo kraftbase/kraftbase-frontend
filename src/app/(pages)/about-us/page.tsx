@@ -1,9 +1,9 @@
-import Achievements from "@/app/components/about-us/achievements";
-import Going from "@/app/components/about-us/going";
-import AboutUsHero from "@/app/components/about-us/hero";
-import Started from "@/app/components/about-us/started";
-import Team from "@/app/components/about-us/team";
-import NavbarSection from "@/app/components/navbar";
+import Achievements from "@components/about-us/achievements";
+import Going from "@components/about-us/going";
+import AboutUsHero from "@components/about-us/hero";
+import Started from "@components/about-us/started";
+import Team from "@components/about-us/team";
+import NavbarSection from "@components/navbar";
 import React from "react";
 
 type Props = {};
