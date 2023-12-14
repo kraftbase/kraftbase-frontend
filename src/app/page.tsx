@@ -1,3 +1,4 @@
+import ClientTestimonials from "@/components/clientTestimonials";
 import CallToAction from "../components/callToAction";
 import FooterSection from "../components/footer";
 import GetInTouchSection from "../components/getInTouch";
@@ -19,7 +20,8 @@ export default function Home() {
       {/* <ProcessSection /> */}
       <ServicesSection />
       <PortfolioSection />
-      <ReviewsSection />
+      <ClientTestimonials />
+      {/* <ReviewsSection /> */}
       <CallToAction />
       <GetInTouchSection />
     </div>
