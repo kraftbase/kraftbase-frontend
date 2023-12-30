@@ -1,61 +1,82 @@
+"use client";
 import FlowerSvg from "@/svg/flower";
-import React from "react";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
+import "@splidejs/splide/dist/css/splide.min.css";
+
+const data = [
+  "Product Design",
+  "UI/UX Designing",
+  "Web Development",
+  "Marketing",
+  "SEO",
+];
 
 export default function Strips() {
   return (
-    <div className="w-[100vw] mx-auto py-40 max-md:py-18 overflow-hidden">
-      <div className="bg-sunflower dark:bg-white w-[110vw] relative right-3 py-6 max-md:py-4 max-md:text-4xl -top-[17px] -rotate-6 mb-2 shadow-2xl font-righteous uppercase text-5xl">
-        <div className="flex flex-row gap-8 max-lg:justify-between max-lg:gap-6 items-center">
-          <div>Product Design</div>
-          <div>
-            <FlowerSvg width={50} fill="black" />
-          </div>
-          <div>UI/UX Designing</div>
-          {/* <div>
-            <FlowerSvg width={50} fill="black" />
-          </div>{" "}
-          <div>SEO</div> */}
-          <div>
-            <FlowerSvg width={50} fill="black" />
-          </div>{" "}
-          <div>Web Development</div>
-          <div>
-            <FlowerSvg width={50} fill="black" />
-          </div>{" "}
-          <div>Marketing</div>
-          {/* <div>
-            <FlowerSvg width={50} fill="black" />
-          </div>{" "}
-          <div>Product Design</div> */}
-        </div>
+    <div className="max-md:py-18 mx-auto w-[100vw] overflow-hidden py-28">
+      <div className="relative -top-[17px] right-3 mb-2 w-[110vw] rotate-[-6deg] bg-sunflower py-4 font-righteous uppercase shadow-2xl dark:bg-white max-md:rotate-[-8deg] max-sm:py-2">
+        <Splide
+          options={{
+            type: "loop",
+            gap: "35px",
+            drag: "free",
+            arrows: false,
+            pagination: false,
+            perPage: 3,
+            autoScroll: {
+              pauseOnHover: false,
+              pauseOnFocus: false,
+              rewind: false,
+              speed: 1,
+            },
+          }}
+          extensions={{ AutoScroll }}
+        >
+          {data.map((item, index) => (
+            <SplideSlide
+              key={index}
+              className="flex !w-fit flex-row items-center justify-between gap-[35px]"
+            >
+              <div className="whitespace-nowrap text-5xl max-sm:text-3xl">
+                {item}
+              </div>
+              <FlowerSvg classNames="w-[40px] max-sm:w-[35px]" fill="black" />
+            </SplideSlide>
+          ))}
+        </Splide>
       </div>
-      <div
-        style={{ boxShadow: "0px 4px 44px 33px rgba(0, 0, 0, 0.1)" }}
-        className="bg-sunflower dark:bg-white w-[120vw] right-3 relative -top-28 py-6 max-md:py-4 max-md:text-4xl rotate-6 mb-2 font-righteous uppercase text-5xl"
-      >
-        <div className="flex flex-row gap-8 max-lg:justify-between max-lg:gap-6 items-center">
-          <div>Web Development</div>
-          <div>
-            <FlowerSvg width={50} fill="black" />
-          </div>{" "}
-          <div>Product Design</div>
-          {/* <div>
-            <FlowerSvg width={50} fill="black" />
-          </div>
-          <div>UI/UX Designing</div> */}
-          <div>
-            <FlowerSvg width={50} fill="black" />
-          </div>{" "}
-          <div>Marketing</div>
-          <div>
-            <FlowerSvg width={50} fill="black" />
-          </div>{" "}
-          <div>SEO</div>
-          <div>
-            <FlowerSvg width={50} fill="black" />
-          </div>{" "}
-          <div>Product Design</div>
-        </div>
+
+      <div className="relative -top-[90px] right-3 mb-2 w-[110vw] rotate-6 bg-sunflower py-4 font-righteous uppercase dark:bg-white max-lg:-top-[110px] max-md:-top-[100px] max-md:rotate-[8deg] max-sm:-top-[75px] max-sm:py-2 max-xs:rotate-[10deg]">
+        <Splide
+          options={{
+            type: "loop",
+            gap: "35px",
+            drag: "free",
+            arrows: false,
+            pagination: false,
+            perPage: 3,
+            autoScroll: {
+              pauseOnHover: false,
+              pauseOnFocus: false,
+              rewind: false,
+              speed: 0.1,
+            },
+          }}
+          extensions={{ AutoScroll }}
+        >
+          {data.map((item, index) => (
+            <SplideSlide
+              key={index}
+              className="flex !w-fit flex-row-reverse items-center justify-between gap-[35px]"
+            >
+              <div className="whitespace-nowrap text-5xl max-sm:text-3xl">
+                {item}
+              </div>
+              <FlowerSvg classNames="w-[40px] max-sm:w-[35px]" fill="black" />
+            </SplideSlide>
+          ))}
+        </Splide>
       </div>
     </div>
   );
