@@ -1,9 +1,9 @@
-import avatar1 from "../../../../public/Ellipse 8.png";
-import avatar2 from "../../../../public/Ellipse 9.png";
-import avatar3 from "../../../../public/Ellipse 10.png";
-import avatar4 from "../../../../public/Ellipse 11.png";
-import object1 from "../../../../public/rectangle-4529@2x.png";
-import object2 from "../../../../public/rectangle-4528@2x.png";
+import avatar1 from "../../../public/Ellipse 8.png";
+import avatar2 from "../../../public/Ellipse 9.png";
+import avatar3 from "../../../public/Ellipse 10.png";
+import avatar4 from "../../../public/Ellipse 11.png";
+import object1 from "../../../public/rectangle-4529@2x.png";
+import object2 from "../../../public/rectangle-4528@2x.png";
 
 import Image from "next/image";
 import FlowerSvg from "@/svg/flower";
@@ -85,13 +85,13 @@ export default function HeroSection() {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke-width="2.5"
+            strokeWidth="2.5"
             stroke="currentColor"
             className="w-8 h-8"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
             />
           </svg>

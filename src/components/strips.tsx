@@ -15,6 +15,7 @@ const data = [
 export default function Strips() {
   return (
     <div className="max-md:py-18 mx-auto w-[100vw] overflow-hidden py-28">
+      // First Strip
       <div className="relative -top-[17px] right-3 mb-2 w-[110vw] rotate-[-6deg] bg-sunflower py-4 font-righteous uppercase shadow-2xl dark:bg-white max-md:rotate-[-8deg] max-sm:py-2">
         <Splide
           options={{
@@ -46,7 +47,7 @@ export default function Strips() {
           ))}
         </Splide>
       </div>
-
+      // Second Strip
       <div className="relative -top-[90px] right-3 mb-2 w-[110vw] rotate-6 bg-sunflower py-4 font-righteous uppercase dark:bg-white max-lg:-top-[110px] max-md:-top-[100px] max-md:rotate-[8deg] max-sm:-top-[75px] max-sm:py-2 max-xs:rotate-[10deg]">
         <Splide
           options={{

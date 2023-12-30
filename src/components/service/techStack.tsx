@@ -1,5 +1,5 @@
 import React from "react";
-import techStackImage from "../../../../public/Group 1261154599.png";
+import techStackImage from "../../../public/Group 1261154599.png";
 import { FaCheck } from "react-icons/fa6";
 
 type Props = {};

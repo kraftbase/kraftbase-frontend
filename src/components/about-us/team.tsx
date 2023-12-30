@@ -1,9 +1,9 @@
 import FlowerSvg from "@/svg/flower";
 import React from "react";
-import avatar1 from "../../../../public/Rectangle 38.png";
-import avatar2 from "../../../../public/Rectangle 39.png";
-import avatar3 from "../../../../public/Rectangle 40.png";
-import avatar4 from "../../../../public/Rectangle 41.png";
+import avatar1 from "../../../public/Rectangle 38.png";
+import avatar2 from "../../../public/Rectangle 39.png";
+import avatar3 from "../../../public/Rectangle 40.png";
+import avatar4 from "../../../public/Rectangle 41.png";
 import Image from "next/image";
 import { MdArrowOutward } from "react-icons/md";
 
