@@ -1,6 +1,7 @@
 "use client";
 import useDarkMode from "@/app/DarkMode";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 import { FaXRay } from "react-icons/fa6";
 import { IoSunny } from "react-icons/io5";
@@ -14,9 +15,12 @@ export default function NavbarSection() {
     { title: "Home", path: "/" },
     { title: "Portfolio", path: "/portfolio" },
     { title: "Services", path: "/services" },
+    { title: "Works", path: "/works" },
     { title: "About", path: "/about-us" },
     { title: "Blog", path: "/blog" },
   ];
+
+  const route = usePathname();
 
   return (
     <>
@@ -35,7 +39,9 @@ export default function NavbarSection() {
                   onClick={() => setState(false)}
                   href={item.path}
                   key={index}
-                  className="flex w-full items-center justify-center font-righteous text-black dark:text-white"
+                  className={`flex w-full items-center justify-center font-righteous text-black dark:text-white ${
+                    route === item.path ? "font-bold !text-royalblue" : ""
+                  }`}
                 >
                   {item.title}
                 </Link>
@@ -44,16 +50,22 @@ export default function NavbarSection() {
           </div>
         </div>
       )}
-      <div className="sticky top-6 z-50 mx-auto flex  h-[70px] max-w-[85%] flex-row items-center justify-between rounded-full border-2 bg-royalblue px-8 shadow-xl dark:bg-white max-lg:top-4 max-lg:h-[60px] max-lg:max-w-[95%]">
+      <div className="relative top-6 z-50 mx-auto flex  h-[70px] max-w-[85%] flex-row items-center justify-between rounded-full border-2 bg-royalblue px-8 shadow-xl dark:bg-white max-lg:top-4 max-lg:h-[60px] max-lg:max-w-[95%]">
         <Link href="/">
           <div className="font-dmSans text-2xl font-bold text-white dark:text-black">
             KraftBase
           </div>
         </Link>
-        <div className="text-md font-dmSans flex flex-row gap-x-8 font-normal text-white dark:text-black">
+        <div className="text-md flex flex-row gap-x-8 font-dmSans font-normal text-white dark:text-black">
           {navigation.map((item, index) => (
             <Link href={item.path} key={index}>
-              <div className="hidden md:block">{item.title}</div>
+              <div
+                className={`hidden md:block ${
+                  route === item.path ? "font-bold" : ""
+                }`}
+              >
+                {item.title}
+              </div>
             </Link>
           ))}
         </div>

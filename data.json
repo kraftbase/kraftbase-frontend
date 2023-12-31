@@ -1,0 +1,105 @@
+{
+  "portfolio": [
+    {
+      "title": "Architectural Agency Website design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor ex id imperdiet eleifend. Nam egestas, enim vitae aliquam egestas, tortor purus feugiat ipsum",
+      "cover": "https://res.cloudinary.com/drlzyudik/image/upload/v1703958742/KraftBase/asset/Portfolio/xivjuvr1f3ymp3dqm1kb.png",
+      "tech": [
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png",
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png",
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png",
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png",
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png"
+      ]
+    },
+    {
+      "title": "Architectural Agency Website design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor ex id imperdiet eleifend. Nam egestas, enim vitae aliquam egestas, tortor purus feugiat ipsum",
+      "cover": "https://res.cloudinary.com/drlzyudik/image/upload/v1703958742/KraftBase/asset/Portfolio/j2rgzabi4ldordsnnlat.png",
+      "tech": [
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png",
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png",
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png",
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png",
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png"
+      ]
+    },
+    {
+      "title": "Architectural Agency Website design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor ex id imperdiet eleifend. Nam egestas, enim vitae aliquam egestas, tortor purus feugiat ipsum",
+      "cover": "https://res.cloudinary.com/drlzyudik/image/upload/v1703958741/KraftBase/asset/Portfolio/vitpcagppuihdetrityn.png",
+      "tech": [
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png",
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png",
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png",
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png",
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png"
+      ]
+    },
+    {
+      "title": "Architectural Agency Website design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor ex id imperdiet eleifend. Nam egestas, enim vitae aliquam egestas, tortor purus feugiat ipsum",
+      "cover": "https://res.cloudinary.com/drlzyudik/image/upload/v1703958741/KraftBase/asset/Portfolio/cby4hb6h3mbjoa8isveb.png",
+      "tech": [
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png",
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png",
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png",
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png",
+        "https://res.cloudinary.com/drlzyudik/image/upload/v1703958718/KraftBase/asset/TechStack/l1ol85yf0iwjdbkhwwpd.png"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mattis?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mattis, neque ut elementum elementum, leo mauris rhoncus elit, sed venenatis tortor magna id"
+    },
+    {
+      "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mattis?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mattis, neque ut elementum elementum, leo mauris rhoncus elit, sed venenatis tortor magna id"
+    },
+
+    {
+      "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mattis?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mattis, neque ut elementum elementum, leo mauris rhoncus elit, sed venenatis tortor magna id"
+    },
+    {
+      "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mattis?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mattis, neque ut elementum elementum, leo mauris rhoncus elit, sed venenatis tortor magna id"
+    },
+    {
+      "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mattis?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mattis, neque ut elementum elementum, leo mauris rhoncus elit, sed venenatis tortor magna id"
+    }
+  ],
+  "works": [
+    {
+      "number": "74+",
+      "title": "Projects",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipis."
+    },
+    {
+      "number": "21",
+      "title": "Countries",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipis."
+    },
+    {
+      "number": "300+",
+      "title": "Global Clients",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipis."
+    },
+    {
+      "number": "14+",
+      "title": "Developers",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipis."
+    }
+  ],
+  "client_countries": [
+    "uae",
+    "israel",
+    "canada",
+    "south korea",
+    "india",
+    "south africa"
+  ]
+}
